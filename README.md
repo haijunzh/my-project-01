@@ -15,6 +15,16 @@ git commit -m "commit .gitignore and notes.txt"<br>
 git push origin# push to remote<br>
 git log#see the history <br>
 
+# Task 3: branching and merging
+git checkout -b updateCreate
+; update notes.txt
+; create a new file newFile.txt
+git add -A
+git commit -m "update notes.txt and create newFile.txt"
+git checkout master
+git merge updateCreate
+git log
+git branch -d updateCreate
 
 
  
