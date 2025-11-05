@@ -26,8 +26,12 @@ git merge updateCreate
 git log
 git branch -d updateCreate
 
+# Task 3: revert, reset
+git revert HEAD
+git log --oneline
+git push origin
+git log --oneline
+git reset --hard 450aa9d
+git push origin --force
+git log --oneline
 
- 
-
-
- 
