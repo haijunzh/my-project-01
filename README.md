@@ -1,4 +1,4 @@
-# my project #01
+# Task 1: initialize a new repo, connect to Github, ..
 mkdir my-project-01<br>
 cd my-project-01<br>
 git init ; initialize the folder into a git repo<br>
